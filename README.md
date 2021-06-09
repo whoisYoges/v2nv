@@ -1,19 +1,20 @@
-# myvim
-Installation of VIM
-Adding VIM-plug
-The first thing I do is install vim-plug from junegunn that has makes a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/junegunn/vim-plug
+# Installation of VIM Plugins
 
-#Installation
+# Adding VIM-plug
+The first thing I do is install vim-plug from junegunn that has makes a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/YogeshLamichhane/vim-plug
+
+# Installation
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-#Using My Custom .vimrc
-This is the main repository that has all of my customization to VIM. https://github.com/ChrisTitusTech/myvim
+    https://raw.githubusercontent.com/YogeshLamichhane/vim-plug/master/plug.vim
+    
+# Using My Custom .vimrc
+This is the main repository that has all of my customization to VIM. https://github.com/YogeshLamichhane/myvim/
 
-#Installation
+# Installation
 cd ~
-wget https://raw.githubusercontent.com/ChrisTitusTech/myvim/master/.vimrc
+wget https://raw.githubusercontent.com/YogeshLamichhane/myvim/main/.vimrc?token=AMLIL3XSWFK4HHVBHKIZQXDAYCINK
 
-#Configuration of VIM
+# Configuration of VIM
 Launch VIM
 Type :PlugInstall
 Exit (Shift+ZZ)
