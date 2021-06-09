@@ -4,8 +4,7 @@
 The first thing I do is install vim-plug that has a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/YogeshLamichhane/vim-plug
 
 # Installation
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
-    https://raw.githubusercontent.com/YogeshLamichhane/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/YogeshLamichhane/vim-plug/master/plug.vim
     
 # Using My Custom .vimrc
 This is the main repository that has all of my customization to VIM. https://github.com/YogeshLamichhane/myvim/
