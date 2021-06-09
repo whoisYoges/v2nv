@@ -1,7 +1,7 @@
 # Installation of VIM Plugins
 
 # Adding VIM-plug
-The first thing I do is install vim-plug from junegunn that has makes a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/YogeshLamichhane/vim-plug
+The first thing I do is install vim-plug that has a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/YogeshLamichhane/vim-plug
 
 # Installation
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -12,7 +12,7 @@ This is the main repository that has all of my customization to VIM. https://git
 
 # Installation
 cd ~
-wget https://raw.githubusercontent.com/YogeshLamichhane/myvim/main/.vimrc?token=AMLIL3XSWFK4HHVBHKIZQXDAYCINK
+wget https://raw.githubusercontent.com/YogeshLamichhane/myvim/main/.vimrc
 
 # Configuration of VIM
 Launch VIM
