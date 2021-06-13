@@ -4,18 +4,18 @@
 The first thing I do is install vim-plug that has a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/YogeshLamichhane/vim-plug
 
 # Installation
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/YogeshLamichhane/vim-plug/master/plug.vim
+1. <code color=green>curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/YogeshLamichhane/vim-plug/master/plug.vim</code>
     
 # Using My Custom .vimrc
 This is the main repository that has all of my customization to VIM. https://github.com/YogeshLamichhane/myvim/
 
 # Installation
-cd ~ \
-wget https://raw.githubusercontent.com/YogeshLamichhane/myvim/main/.vimrc
+2. <code color=green> cd ~ </code>
+3. <code color=green> wget https://raw.githubusercontent.com/YogeshLamichhane/myvim/main/.vimrc </code>
 
 # Configuration of VIM
 Launch VIM \
-Type :PlugInstall \
+Type <code color=green> :PlugInstall </code>\
 Exit (Shift+ZZ) \
 Overview of Plugins \
 Let’s go over all the plugins that were just installed. Feel free to edit the .vimrc to your needs.
