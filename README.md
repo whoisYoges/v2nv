@@ -1,45 +1,15 @@
-# Installation of VIM Plugins
+# v2nv
 
-### Adding VIM-plug
-The first thing I do is install vim-plug that has a lot of vim-based plugins. Here is the repository that I am using for this: https://github.com/YogeshLamichhane/vim-plug
+I switched to neovim from vim. So v2nv means vim to nvim
 
-### Installation
-1. <code color=green>curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/YogeshLamichhane/vim-plug/master/plug.vim</code>
-    
-### Using My Custom .vimrc
-This is the main repository that has all of my customization to VIM. https://github.com/YogeshLamichhane/myvim/
+Basically, the configuration for vim and neovim is almost same you just need to edit some paths.
 
-### Installation
-2. <code color=green> cd ~ </code>
-3. <code color=green> wget https://raw.githubusercontent.com/YogeshLamichhane/myvim/main/.vimrc </code>
+I just seprated config into three different files so that it is easier and more convenient to read understand and use.
 
-### Configuration of VIM
-Launch VIM \
-Type <code color=green> :PlugInstall </code>\
-Exit (Shift+ZZ) \
-Overview of Plugins \
-Let’s go over all the plugins that were just installed. Feel free to edit the .vimrc to your needs.
+- [init.vim](init.vim) is the main configuaration file. rename to .vimrc if you use vim.
+- [key-bindings.vim](key-bindings.vim) is a separate file configured store key binding settings.
+- [plugins.vim](plugins.vim) is a separate file configured to store plugin settings. All the plugins, p;ugin settings and plugin specific keybindiings are stored here.
 
-#### LightLine 
-This plugin adds a nice look to the bottom part of vim and adding a colored line that is now displayed and changes when VIM enters different modes.
+*note:* I am using [vim-plug](https://github.com/junegunn/vim-plug) to manage all my plugins.
 
-#### OneDark 
-This is a theme for VIM that adds a greater contrast and dark theme to vim. This makes text and everything inside easier to read.
-
-#### FZF (Fuzzy Search) 
-This adds greater functionality to search that allows you to search for partial matches easier. See full syntax here: https://github.com/junegunn/fzf#usage
-
-#### GoYo 
-This plugin removes all the numbers and formatting and makes it easier when writing documents in VIM. From Normal Mode - I made the hotkey Ctrl+\ to enter this special format.
-
-#### UndoTree 
-UndoTree is an amazing plugin that makes it easy to see everything you have done in your session. Simply press F5 from Normal mode and you will see the entire all your recent changes and undo them.
-
-#### NerdTree 
-NerdTree is a file management plugin. This hotkey is Ctrl+o and opens up a file tree on the left side for you switch files
-
-#### VimWiki 
-VimWiki adds syntax formatting for markdown and is a fantastic plugin to have if you many markdown files.
-
-#### Conclusion 
-There is still a ton of other edits I need to make to this VIM and will be a work in progress for many years. Everyday I learn something new and powerful with VIM and if you can think about what you want, I am sure VIM will be able to accommodate that. Future additions that I am looking at is SpellCheck, VIM Tabs, and general improvements to the .vimrc file. My vimrc file currently has a lot of the most common tweaks, longer history, sorting, file numbering, and removal of auto comment formatting, However there is still a of things to improve. So come and check back often as I will update this project as it progresses.
+All the key bindings are stated in [hotkeys](hotkeys).
